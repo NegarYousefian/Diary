@@ -1,0 +1,38 @@
+.portal-background{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+.portal-container{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(180, 125, 108);
+    width: 50vw;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #222;
+}
+.portal-background i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    opacity: 0.5;
+    color: red;
+    z-index: 1000;
+
+}
+.portal-background i:hover{
+    opacity: 1;
+}
+.portal-container img{
+    object-fit: contain;
+    max-width: 100%;
+}
+

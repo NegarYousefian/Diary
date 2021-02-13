@@ -1,0 +1,69 @@
+.todo-container{
+    background-color: #487c83;
+    height: 100vh;
+}
+.todo-title{
+    margin: 0;
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Sofia', cursive;
+    font-size: 2.5rem;
+}
+.todo-items-container{
+    padding: 2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(179, 124, 108);
+    padding: 2rem;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.2rem;
+    height: 60vh;
+    overflow-y: auto;
+}
+.close-todo{
+    padding: 0;
+    font-size: 1.2rem;
+    color: cyan;
+    float: right;
+}
+.todo-text{
+    display: inline-block;
+}
+.todo-item{
+    background-color: lightsalmon;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+.todo-left{
+    color:cyan;
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 1rem;
+}
+.input-todo{
+    font-family: 'Balsamiq Sans', cursive;
+    border: 2px solid black;
+    font-size: 1.2rem;
+}
+.addtodo-button{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: cyan;
+    transition: all 1s ease;
+}
+.addtodo-button:hover{
+    background-color: transparent;
+}
+.todo-button{
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: transparent;
+    transition: all 1s ease;
+    margin: 0.2rem;
+}
+.todo-button:hover{
+    background-color: cyan;
+}

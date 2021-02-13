@@ -1,0 +1,88 @@
+.home{
+    background-image: url('/src/images/wallpaper.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: 5rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.write-diary{
+    overflow-y: scroll;
+    height: 6rem;
+    max-height: 6rem;
+    width: 100%;
+    overflow-x: auto;
+}
+.form-container{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    height: 70%;
+    width: 35rem;
+    padding: 2rem;
+    overflow-y: hidden;
+}
+.sub-button{
+    margin-top: 1rem !important;
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid black;
+    transition: all 0.6s ease;
+    font-family: cursive;
+    border-radius: 10px;
+}
+.sub-button:hover{
+    background-color: white;
+}
+.diary-holder{
+    margin: 17rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    background-color: #70c3ce;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #487c83;
+    height: 20%;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    transition: all 1s ease;
+}
+.diary-holder:hover{
+    background-color: #549199;
+}
+.w-text{
+    margin-left: 10rem;
+    margin-right: 8rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Sofia', cursive;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.4);
+}
+::-webkit-scrollbar-thumb {
+    background: #487c83;
+    border-radius: 10px;
+}
